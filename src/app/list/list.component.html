@@ -1,0 +1,6 @@
+@for(book of books$ | async; track $index) {
+<p>
+    <b>Livro: </b> {{ book.name }}
+    <b>Autor: </b> {{ book.author }}
+</p>
+}
