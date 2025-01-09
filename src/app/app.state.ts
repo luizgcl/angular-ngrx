@@ -1,4 +1,4 @@
-import { BookState } from "../core/books/book.state";
+import { BookState } from "../state/books/book.state";
 
 export interface IAppState {
     books: BookState
