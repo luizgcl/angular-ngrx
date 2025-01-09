@@ -5,7 +5,9 @@ import { ListComponent } from './list/list.component';
 @Component({
   selector: 'app-root',
   imports: [FormComponent, ListComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.sass'
+  template: `
+    <app-form/>
+    <app-list/>
+  `,
 })
 export class AppComponent { }
